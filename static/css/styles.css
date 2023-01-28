@@ -1,4 +1,18 @@
-li :hover{
-    background-color: gray;
-    border-radius: 10px;
+ul li{
+    position: relative;
+   
 }
+ul li::after{
+    content: '';
+    height: 3px;
+    width: 0px;
+    background: #000000 ;
+    position: absolute;
+    left: 10px;
+    bottom: -3px;
+    transition: 0.5s;
+}
+ul li:hover::after{
+    width: 80%;
+}
+
