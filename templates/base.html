@@ -4,14 +4,15 @@
         <title>{%block title%}{%endblock%}</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-   <link rel="stylesheet"  href="{% static '/css/style.css'%}">
+   <link rel="stylesheet"  href="{% static '/css/styles.css'%}">
 </head>
         <body>
            
-<nav class="navbar bg-primary navbar-expand-md">
-    <div class="container">
-      <div class="col-md-2   text-white">
-      <h2 >CITY HOSPITAL</h2></div>
+          <nav class="navbar bg-primary navbar-expand-md">
+            <div class="container">
+                <div class="col-2 text-left pl-md-0">
+                    <h3 class="text-white">City Hospital</h3>
+                </div>
  
       <div class="collapse navbar-collapse justify-content-center col-md-11 navbar-collapse-8" style="margin-right: 50px;"">
         <ul class="navbar-nav justify-content-center fw-bold">
@@ -22,7 +23,7 @@
             <a class="nav-link text-white" href="{%url 'about'%}">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="{%url 'book'%}">Advance Booking</a>
+            <a class="nav-link text-white" href="{%url 'book'%}">Booking</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="{%url 'doct'%}">Doctors</a>
@@ -33,13 +34,7 @@
           <li class="nav-item">
             <a class="nav-link text-white" href="{%url 'cont'%}">Contact Us</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="{%url 'cont'%}">Phone booking<br>0484 2609412</a>
-          </li>
-          <li class="nav-item two">
-            <img src="/static/images/img4.png">
-            <a class="nav-link text-white" href="#">Emergency And Amubulance Services<br><u>+91 8078199418</u></a>
-          </li>
+        
          
         </ul>
       </div>
