@@ -1,0 +1,34 @@
+.contain {
+
+    padding: 10px;
+}
+
+.first {
+
+    width: 500px;
+    display: inline-block;
+    margin-left: 100px;
+    font-size: larger;
+}
+
+.second {
+
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    left: 150px;
+}
+
+h2 {
+    margin-left: 200px;
+    color: rgb(70, 70, 247);
+}
+.third{
+    width:500px;
+    margin-left: 100px;
+   font-size: larger;
+    color: red;
+    position: relative;
+    bottom: 150px;
+}

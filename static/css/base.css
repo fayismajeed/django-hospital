@@ -6,7 +6,7 @@ ul li::after{
     content: '';
     height: 3px;
     width: 0px;
-    background: #000000 ;
+    background: lightblue;
     position: absolute;
     left: 10px;
     bottom: -3px;
@@ -15,4 +15,3 @@ ul li::after{
 ul li:hover::after{
     width: 80%;
 }
-

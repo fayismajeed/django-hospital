@@ -1,3 +1,49 @@
 {% extends 'base.html' %}
 {%block title%}contact{%endblock%}
-{% block content %}contpage {% endblock %}
+{% block content %}
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="{%static '/css/cont.css' %}">
+</head>
+
+<body>
+    <div class="bord text-center">
+
+    <h3>Information Desk</h3>
+
+    <p1>0484 2402044- Cardiology Advance Booking</p1><br>
+    <p2>0484 2401821, 0484 2755305 Health Checkup</p2><br>
+    <p3>9497713386, 0484 2755099 (Ext. 5099) Emergency Department & Ambulance</p3><br>
+    <p4>9895756164, 0484 2755301 Gynecology Emergency Department</p4><br>
+    <p5>0484 2755151 (Ext 4004) Radiology & Imaging LIRRIS</p5><br>
+    <p6>9846057184, 0484 2400811 (Ext: 3100) Service Available 24X7 Public Relations Services</p6><br>
+    <p7>9895756164, 0484 2755301 Insurance Office</p7><br>
+    <p8>0484 2755386, 0484 2755306 Hemodialysis</p8><br>
+    <p9>0484 2755337 Pharmacy</p9><br>
+    <p10>0484 2755039 Laboratory Services</p10><br>
+    
+<p>Enquiry :0484 290 5000, 0484 718 4000<br>
+mail@cityhospital.com<br>
+Emergency :0484 290 5100<br>
+emergency@cityhospital.com<br>
+Master Health Checks :0484 290 5027<br>
+hcpc@cityhospital.com<br>
+Corporates Help Desk :0484 290 5036<br>
+manager.corp@cityhospital.com<br>
+Human Resources :0484 718 4004<br>
+hr@cityhospital.com<br>
+International Patient Services :+91 73566 00866<br>
+international@cityhospital.com </p><br>
+    </div>
+</body>
+
+</html>
+
+{%endblock%}
